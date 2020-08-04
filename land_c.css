@@ -1,3 +1,25 @@
+.land-head {
+  background-color: whitesmoke;
+  font-size: "200%";
+  font-weight: bolder;
+  padding: 20px;
+}
+.land_font {
+  font-style: oblique;
+  font-size: larger;
+  
+}
+.land_img {
+  max-width: 60%;
+  float: left;
+}
+.viz-head {
+  font-size: large;
+  text-align: "60pt";
+  font-weight: bolder;
+  text-align-last: center;
+
+}
 .land_box {
     max-width: 100%;
     height:auto;
@@ -5,12 +27,9 @@
     background-color:none;
     font-size: 18pt;
     }
-.land_img {
-   max-width: 60%;
-   float: left;
-}
+
 .viz_box {
-    background-color: lavenderblush;
+    background-color: lightsteelblue;
     width: 150px;
     height: 150px;
 }
