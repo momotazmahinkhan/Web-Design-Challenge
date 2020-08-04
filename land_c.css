@@ -1,0 +1,63 @@
+.land_box {
+    max-width: 100%;
+    height:auto;
+    float: left;
+    background-color:none;
+    font-size: 18pt;
+    }
+.land_img {
+   max-width: 60%;
+   float: left;
+}
+.viz_box {
+    background-color: lavenderblush;
+    width: 150px;
+    height: 150px;
+}
+.viz {
+    max-width: 100%;
+    height:auto;
+    float: left;
+    font-size: 18pt;
+    background-color: red;
+}
+.viz_font {
+    font-size: 18pt;
+}
+
+
+/*this is the Expt style visualization*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/*this is the Expt style visualization*/
+
+
+@media (max-width: 600px){
+
+    }
+    /*this is the Expt style visualization*/
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    .column {
+      width: 100%;
+    }
+    
+/*this is the Expt style visualization*/
+
+}

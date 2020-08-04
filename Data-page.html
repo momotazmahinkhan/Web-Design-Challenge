@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Data Page</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <div class="container">
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="file:///C:/Users/user-xx/Desktop/PREWORK_MMK/Unit%2011%20-%20Web/Homework/Instructions/landing_page.html">Home</a>
+  <title>web Visualization</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="land_c.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Data Visualization Project</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="land_new.html"><span class= "glyphicon glyphicon-home"></span>  Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class= "glyphicon glyphicon-th-list"></span>  Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="V1.html">Temperature</a></li>
+            <li><a href="V2.html">Humidity</a></li>
+            <li><a href="V3.html">Cloudiness</a></li>
+            <li><a href="V4.html">Wind Speed</a></li>
+          </ul>
         </li>
-        <li>
-          <a href="#my personal website ">About Me</a>
-        </li>
-        <li>
-          <a href="file:///C:/Users/user-xx/Desktop/PREWORK_MMK/Unit%2011%20-%20Web/Homework/Instructions/Comparison_Page.html">Comparisons</a>
-        </li>
-        <li>
-          <a href="file:///C:/Users/user-xx/Desktop/PREWORK_MMK/Unit%2011%20-%20Web/Homework/Instructions/Data-page.html">Data</a>
-        </li>
+        <li><a href="Comp.html">Comparison Analysis</a></li>
+        <li><a href="Data-page.html">Data</a></li>
       </ul>
-    </nav>
-  <table border="2" class="dataframe">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>  Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <table border="20" class="dataframe">
+    <table class="table table-striped w-auto">
+      <thead class="thead-dark"></thead>
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
+      <thead class="thead-dark"></thead>
       <th></th>
       <th>City</th>
       <th>Cloudiness</th>
