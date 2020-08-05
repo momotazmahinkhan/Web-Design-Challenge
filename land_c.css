@@ -1,11 +1,12 @@
 .land-head {
-  background-color: whitesmoke;
-  font-size: "200%";
+  background-color:turquoise;
+  font-size: "250%";
   font-weight: bolder;
-  padding: 20px;
+  padding: 15px;
+  text-align: left;
 }
 .land_font {
-  font-style: oblique;
+  font-style:normal;
   font-size: larger;
   
 }
@@ -18,6 +19,9 @@
   text-align: "60pt";
   font-weight: bolder;
   text-align-last: center;
+  padding: 10px;
+  background-color:turquoise;
+  border:"10";
 
 }
 .land_box {
