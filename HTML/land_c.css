@@ -7,13 +7,17 @@
 }
 .land_font {
   font-style:normal;
-  font-size: larger;
+  font-size: 15pt;
   
 }
-.land_img {
-  max-width: 60%;
+.mainimg{
+  width: 60%;
   float: left;
+  font-size: 10pt;
 }
+#SmImg {
+  width: 1%;
+  }
 .viz-head {
   font-size: large;
   text-align: "60pt";
@@ -80,7 +84,9 @@
     .column {
       width: 100%;
     }
-  
+  #SmImg{
+      width:100%;
+  }
   /*this is the Expt style visualization*/
 
 }
